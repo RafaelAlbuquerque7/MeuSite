@@ -4,3 +4,8 @@
     box-sizing: border-box;
     
     }
+
+header{
+background: rgb(0,14,36);
+background: linear-gradient(90deg, rgba(0,14,36,1) 15%, rgba(9,98,121,1) 73%, rgba(0,212,255,1) 100%);
+}

@@ -24,9 +24,13 @@
     font-family: 'italic';
 background-color: rgb(34, 34, 34);
 color: rgb(0, 255, 191); 
-height: 70px;
-padding: 20px;
-font-size: 45px; 
+height: 100px;
+padding: 5px;
+font-size: 38px; 
+}
+
+.nomepag{
+    padding: 30px;
 }
 
 #menu ul li {
@@ -35,7 +39,7 @@ font-size: 45px;
 
 #menu ul li a {
     color: #FFF;
-    padding: 25px;
+    padding: 10px;
     display: inline-block;
     text-decoration: none;
     transition: background .6s;

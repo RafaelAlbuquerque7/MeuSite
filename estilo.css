@@ -94,6 +94,27 @@ font-size: 38px;
        font-size: 70px;
     }
 
+    .sbe{
+        margin-top: 50px;
+        max-width: 700px;
+        color: #00ffbf;
+       font-size: 70px;
+    }
+
+    .sbg{
+        margin-top: 50px;
+        max-width: 700px;
+        color: #00ffbf;
+       font-size: 70px;
+    }
+
+    .sbi{
+        margin-top: 50px;
+        max-width: 700px;
+        color: #00ffbf;
+       font-size: 70px;
+    }
+
     .sb2{
         max-width: 700px;
         text-align: justify;

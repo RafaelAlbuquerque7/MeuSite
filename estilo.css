@@ -139,3 +139,75 @@ font-size: 38px;
         text-align: justify;
         display: block;
     }
+
+    .slider{
+        overflow: hidden;
+        padding: 14.5px;
+    }
+    .slider > .slider-content{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 50%;
+        transition: all 500ms ease;
+     
+    }
+     
+    .slider > .slider-content > .slider-item {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+     
+    .slider > input:nth-child(1):checked ~ .slider-content{
+        transform: translateX(-2%);
+    }
+     
+    .slider > input:nth-child(2):checked ~ .slider-content{
+        transform: translateX(-105%);
+    }
+    .slider > input:nth-child(3):checked ~ .slider-content{
+        transform: translateX(-208%);
+    }
+     
+    .slider > input:nth-child(4):checked ~ .slider-content{
+        transform: translateX(-311%);
+    }
+     
+    a:hover{
+        color: #7260d7;
+    }
+     
+    .slider-item{
+        width: 50%;
+        margin:20px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color:#00ffbf;
+        ;
+        color:white;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 255, 255);
+    }
+    
+    .the{
+        width: 700px;
+        height: 500px;
+    }
+
+    .rd{
+        width: 700px;
+        height: 500px;
+    }
+
+    .wz{
+        width: 700px;
+        height: 500px;
+    }
+
+    .legenda{
+        color: #FFF;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
